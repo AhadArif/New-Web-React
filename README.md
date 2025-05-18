@@ -1,4 +1,26 @@
 <<<<<<< HEAD
+## 🚀 Project Overview
+
+This is the frontend of my web application developed using React.js. It is structured with a focus on performance, maintainability, and seamless user interaction.
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS / CSS Modules
+- Axios (for HTTP requests)
+- React Router
+
+## 💡 Features
+
+- Modular and scalable folder structure
+- Responsive design
+- Clean and reusable components
+- API integration ready
+
+## 🧪 Running Locally
+Code can be changed accordingly for preferred backend use
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
