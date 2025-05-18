@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# New-Web-React
+I created this website using references from various internet sources. The design and structure were tailored to match my personal style and project goals. I also completed a React-based certification, UX course and learnings/skills along the way i picked which provided a strong foundation and great help for this project.
+>>>>>>> 210a82054399c267ffdf2a111d3c464fe944497b
