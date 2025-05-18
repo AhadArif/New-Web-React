@@ -1,0 +1,95 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #121619;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.navbar .leftSide {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Added space between logo and text */
+}
+
+.navbar .leftSide img {
+  width: 70px;
+}
+
+.navbar .leftSide .brandTitle {
+  color: white;
+  font-style: scribble;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+}
+
+.navbar .rightSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 28px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.navbar .rightSide button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* Button active (clicked) effect */
+.navbar .rightSide button:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar .hiddenLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .hiddenLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .rightSide.open .hiddenLinks {
+  display: flex;
+}
+
+.navbar .rightSide.close .hiddenLinks {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide.open .hiddenLinks {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .rightSide button {
+    display: block;
+  }
+  
+}
