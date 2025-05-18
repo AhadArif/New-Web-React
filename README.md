@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## 🚀 Project Overview
 
 This is the frontend of my web application developed using React.js. It is structured with a focus on performance, maintainability, and seamless user interaction.
